@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>Register New Member</title>
+</head>
+
+<body class="bg-light">
+    <div class="jumbotron jumbotron-fluid bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-8 mx-auto">
+					<div class="card shadow-sm">
+						<form id="myForm" autocomplete="off" action="/registrasiproses" method="get">
+						<h5 class="card-header bg-primary text-white">Register New Member</h5>
+						<div class="card-body">
+							<div class="form-group">
+								<label class="font-weight-bold" for="userEmail">Email address</label>
+								<input type="email" class="form-control" id="userEmail" name="userEmail" placeholder="Enter email" required>
+							</div>
+							<div class="form-group">
+								<label class="font-weight-bold" for="userPassword">Password</label>
+								<input type="password" class="form-control" id="userPassword" name="userPassword" placeholder="Password" required>
+							</div>
+						</div>
+						<div class="card-footer">
+							<button type="submit" class="btn btn-primary" id="buttonSubmit">Submit</button>
+						</div>
+						</form>
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
